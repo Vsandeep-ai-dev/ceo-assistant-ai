@@ -44,6 +44,69 @@ ceo-assistant-ai/
 
 ---
 🔧 Setup Instructions
+## ▶️ How to Run
+
+1. Create and activate a virtual environment:
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # On Windows use: venv\Scripts\activate
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Set up your `.env` file:
+
+   - Create a file named `.env`
+   - Add your OpenAI key like this:
+
+     ```
+     OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+     ```
+
+4. Run the app:
+
+   ```bash
+   python app.py
+   ```
+
+---
+
+### ✅ 4. Remove Database from Version Control
+
+You don’t want to track your local `tasks.db` in Git. Run this:
+
+```bash
+git rm --cached tasks.db
+echo "tasks.db" >> .gitignore
+git commit -m "Remove tasks.db from version control"
+git push origin main
+```
+
+---
+
+### ✅ 5. Optional: Add a Project Demo (GIF / Screenshot)
+
+📸 Add a `screenshots/` folder and include demo images or a short video showing:
+
+- Task extraction from text
+- Meeting transcription
+- Auto report generation
+
+Then embed the image in your `README.md` like this:
+
+```markdown
+![Demo Screenshot](screenshots/demo.png)
+```
+
+---
+
+Once you do this, your project will look professional, polished, and ready for recruiters, contributors, or clients. Let me know once you're done — I’ll review it again! 🚀
+
 🔧 What You Can Improve or Add:
 
 Installation Instructions (Missing):
