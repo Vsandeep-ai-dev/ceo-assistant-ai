@@ -44,6 +44,19 @@ ceo-assistant-ai/
 
 ---
 🔧 Setup Instructions
+🔧 What You Can Improve or Add:
+
+Installation Instructions (Missing):
+Add this section under setup Instructions
+pip install -r requirements.txt
+2..env Example (Optional but Recommended):
+Add this so others know what variable they need to define:
+# .env
+OPENAI_API_KEY=your_openai_api_key_here
+3.# .env
+OPENAI_API_KEY=your_openai_api_key_here
+python app.py
+
 1. Clone the Repository
 bash
 Copy
@@ -85,7 +98,12 @@ python task_manager.py
 🧪 Testing & Output
 All modules are designed to be testable independently. When the API subscription is active, the full GPT response output will be visible.
 
-📜 License
+
+## 🤝 Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## 📝 License
 This project is licensed under the MIT License.
 
-Let me know once you've added it — or if you're ready to start Project 2 now!
+
+
